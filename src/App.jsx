@@ -1,4 +1,5 @@
 import React from 'react';
+import HeroSection from './components/hero';
 import Button from '@mui/material/Button';
 import AppBar from '@mui/material/AppBar';
 import { Toolbar, Typography, Box } from '@mui/material';
@@ -124,6 +125,11 @@ function App() {
           </Box>
         </Toolbar>
       </AppBar>
+      <HeroSection />
+
+
+
+
     </ThemeProvider>
   );
 }
