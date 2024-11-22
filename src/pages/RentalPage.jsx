@@ -1,14 +1,13 @@
 import React from 'react';
-import './RentalPageStyles.css';
-import BackgroundImage from './assets/BackgroundLivingRoom.jpg';
-import FullApartmentImage from './assets/FullApartment.jpg';
-import ApartmentBedroom from './assets/ApartmentBedroom.jpg';
+import BackgroundImage from '../assets/images/BackgroundLivingRoom.jpg';
+import FullApartmentImage from '../assets/images/FullApartment.jpg';
+import ApartmentBedroom from '../assets/images/ApartmentBedroom.jpg';
+import {Link} from "react-router-dom";
 
 
 function RentalPage() {
     return (
         <div>
-      {/* Welcome Section */}
       <div style={{ position: "relative" }}>
         <img
           src={BackgroundImage}
@@ -35,7 +34,6 @@ function RentalPage() {
         </h2>
       </div>
 
-      {/* Listing Type Section */}
       <div style={{ marginTop: "15px" ,
                     marginLeft: "25%"
       }}>
@@ -50,7 +48,6 @@ function RentalPage() {
             gap: "10%",
           }}
         >
-          {/* Option 1 */}
           <div
             style={{
               display: "flex",
@@ -68,8 +65,8 @@ function RentalPage() {
                 border: "3px solid black",
               }}
             />
-            <a
-              href="FullApartment.html"
+            <Link
+              to={"/list-property"}
               style={{
                 display: "block",
                 width: "75%",
@@ -83,7 +80,7 @@ function RentalPage() {
               }}
             >
               Full Apartment
-            </a>
+            </Link>
           </div>
 
           {/* Option 2 */}
@@ -104,8 +101,8 @@ function RentalPage() {
                 border: "3px solid black",
               }}
             />
-            <a
-              href="RentRoom.html"
+            <Link
+              to="/rent-room"
               style={{
                 display: "block",
                 width: "75%",
@@ -119,7 +116,7 @@ function RentalPage() {
               }}
             >
               Apartment Room
-            </a>
+            </Link>
           </div>
         </div>
       </div>

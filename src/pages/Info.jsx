@@ -40,7 +40,7 @@ function Info() {
                     <p className="max-w-sm mt-3 text-xl font-light">{card.description}</p>
                     <a
                         href={card.buttonLink}
-                        className={`mt-12 text-lg border-2 inline-block w-full max-w-xs mx-auto px-6 py-4 rounded-lg text-white font-medium text-blue-400 bg-opacity-80 hover:bg-opacity-100`}
+                        className={`mt-12 text-lg border-2 inline-block w-full max-w-xs mx-auto px-6 py-4 rounded-lg text-white font-medium text-black bg-opacity-80 hover:bg-opacity-100`}
                     >
                         {card.buttonText}
                     </a>

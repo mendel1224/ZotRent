@@ -1,7 +1,8 @@
 import React from "react";
-import background from '../../assets/images/background-university.jpg';
+import background from '../assets/images/background-university.jpg';
 import {TextField} from "@mui/material";
 import { Heart, Search, CircleUserRound, ShoppingCart, AlignJustify} from "lucide-react";
+import {Link} from "react-router-dom";
 function HeroSection() {
 
   return (
@@ -29,9 +30,12 @@ function HeroSection() {
                           className="pl-10 rounded-xl py-4 w-full sm:w-[420px]"
                       />
                   </div>
-                  <button className="text-white font-medium bg-blue-600 px-5 py-4 rounded-lg hover:bg-blue-700">
-                      Explore Near You!
-                  </button>
+                  <Link to={"/rent"}>
+                      <button className="text-white font-medium bg-blue-600 px-5 py-4 rounded-lg hover:bg-blue-700">
+                          Explore Near You!
+                      </button>
+                  </Link>
+
               </div>
           </div>
       </div>

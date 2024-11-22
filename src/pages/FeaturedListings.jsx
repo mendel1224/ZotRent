@@ -1,10 +1,10 @@
 import React from 'react';
 import { Box, Typography, Grid, Card, CardContent, CardMedia } from '@mui/material';
 
-import cozyLoft from '../../assets/images/cozyLoft.jpg';
-import singleRoom from '../../assets/images/SingleRoom.jpg';
-import spaciousApartment from '../../assets/images/SpaciousAPT.jpeg';
-import kitchen from '../../assets/images/kitchen.jpg';
+import cozyLoft from '../assets/images/cozyLoft.jpg';
+import singleRoom from '../assets/images/SingleRoom.jpg';
+import spaciousApartment from '../assets/images/SpaciousAPT.jpeg';
+import kitchen from '../assets/images/kitchen.jpg';
 
 // Listings data
 function FeaturedListings() {

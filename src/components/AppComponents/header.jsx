@@ -26,7 +26,7 @@ function Header() {
                 </Link>
             </div>
             <div className={"flex gap-5"}>
-                <Link to={"/"}>
+                <Link to={"/rent"}>
                     <Button
                         color="inherit"
                         sx={{
@@ -55,7 +55,7 @@ function Header() {
                     </Button>
                 </Link>
 
-                <Link to="/list-property" >
+                <Link to="/rental-page" >
                     <Button
                         color="inherit"
                         sx={{
