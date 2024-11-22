@@ -35,7 +35,7 @@ function RentalPage() {
       </div>
 
       <div style={{ marginTop: "15px" ,
-                    marginLeft: "25%"
+                    marginLeft: "0%"
       }}>
         <p style={{ fontSize: "200%" }}>
             What type of listing best suits your rental?
@@ -46,6 +46,7 @@ function RentalPage() {
             display: "flex",
             justifyContent: "center",
             gap: "10%",
+            marginLeft: "10%",
           }}
         >
           <div
