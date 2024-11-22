@@ -7,6 +7,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Header from './components/AppComponents/header';
 import theme from './components/AppComponents/theme';
+import MapSection from './components/AppComponents/mapSection';
 
 
 
@@ -17,6 +18,7 @@ function App() {
     <CssBaseline />
     <Header />
     <HeroSection />
+    <MapSection />
 
     </ThemeProvider>
   );
