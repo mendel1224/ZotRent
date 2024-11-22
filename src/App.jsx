@@ -1,14 +1,15 @@
 import React from 'react';
-import HeroSection from './components/AppComponents/hero';
+import HeroSection from './components/pages/HeroSection.jsx';
 import Button from '@mui/material/Button';
 import AppBar from '@mui/material/AppBar';
 import { Toolbar, Typography, Box } from '@mui/material';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import Header from './components/AppComponents/header';
-import theme from './components/AppComponents/theme';
-import MapSection from './components/AppComponents/mapSection';
-import FeaturedListings from './components/AppComponents/featuredListings';
+import Header from './components/pages/Header.jsx';
+import theme from './components/pages/theme';
+import MapSection from './components/pages/MapSection.jsx';
+import FeaturedListings from './components/pages/FeaturedListings.jsx';
+import Home from "./components/pages/Home.jsx";
 
 
 
@@ -19,9 +20,7 @@ function App() {
     <CssBaseline />
 
     <Header />
-    <HeroSection />
-    <MapSection />
-    <FeaturedListings/>
+    <Home/>
 
     </ThemeProvider>
   );
