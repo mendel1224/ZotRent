@@ -30,14 +30,14 @@ Follow these instructions to get a local copy of ZotRent running on your machine
 
 ### Installation
 
-1. **Clone the repository:**
+## 1. Clone the repository:**
    git clone https://github.com/mendel1224/ZotRent.git
 
-2. Navigate to the project directory:
+## 2. Navigate to the project directory:
     cd ZotRent
 
-3. Install the dependencies
+## 3. Install the dependencies
     npm install
 
-4. Run on local server
+## 4. Run on local server
     npm run dev
